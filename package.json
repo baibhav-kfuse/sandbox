@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/parseCss.js --input=examples/prod-css.css --output=output/prod-css-formatted.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baibhav-kfuse/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baibhav-kfuse/sandbox/issues"
+  },
+  "homepage": "https://github.com/baibhav-kfuse/sandbox#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
