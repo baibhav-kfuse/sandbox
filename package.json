@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node bin/parseCss.js --input=examples/prod-css.css --output=output/prod-css-formatted.json"
+    "start": "node bin/parseCss.js --input=examples/prod-css.css --output=output/prod-css-formatted.json",
+    "generateSelectorsByCssProperties": "node bin/generateSelectorsByCssProperty.js --input=output/prod-css-formatted.json --output=output/prod-selectorsByCssProperty.json"
   },
   "repository": {
     "type": "git",
